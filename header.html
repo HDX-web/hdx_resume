@@ -1,1 +1,108 @@
 
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+
+</head>
+
+<header class="container-fluid">
+    <div class="row">
+        <div class="col-lg-5 col-md-12">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="my_index" class="nav-link text-white">网站首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="my_self.html" class="nav-link text-white">关于我们</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dish_style.html" class="nav-link text-white">菜式欣赏</a>
+                </li>
+                <li class="nav-item">
+                    <a href="food_info.html" class="nav-link text-white">美食资讯</a>
+                </li>
+                <li class="nav-item">
+                    <a href="online_book.html" class="nav-link text-white">在线预订</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-5 col-md-12">
+            <div class="input-group">
+                <input  class="form-control my_small" type="text" placeholder="请输入喜欢的菜肴...."/>
+                <a  class="my_width" href="#">
+                    <img src="img/header/search.png" alt=""/>
+                </a>
+            </div>
+            
+
+        </div>
+        <div class="col-lg-2 col-md-12 pr-0 ml-0" >
+            <ul class="list-unstyled d-flex my_small">
+                <li>
+                    <a href="#" class="text-muted pr-2">VIP注册</a>
+                </li>
+                <li>
+                    <b class="text-secondary">|</b>
+                </li>
+                <li>
+                    <a href="#" class="text-muted pl-2">登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+
+
+<div class="container">
+
+    <div id="myCarousel" class="carousel" data-ride="carousel" data-interval="2000">
+        <!--轮播图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#">
+                    <img src="img/header/banner1.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#">
+                    <img src="img/header/banner2.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item ">
+                <a href="#">
+                    <img src="img/header/banner3.jpg" alt=""/>
+                </a>
+            </div>
+        </div>
+        <!--左右箭头-->
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon "></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <!--指示器-->
+        <ul class="carousel-indicators">
+            <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ul>
+</div>
+</div>
+
+</body>
+</html>
+
+
